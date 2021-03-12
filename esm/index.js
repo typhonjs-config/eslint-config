@@ -1,6 +1,12 @@
 module.exports = {
    "extends": "../default/default.js",
 
+   "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+      }
+   },
+
    "rules": {
       /* ES6 */
       "arrow-body-style": "off",
