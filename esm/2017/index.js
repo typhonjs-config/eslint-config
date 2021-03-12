@@ -3,5 +3,9 @@ module.exports = {
 
    "env": {
       "es2017": true
+   },
+
+   "parserOptions": {
+      "ecmaVersion": 2017
    }
 }

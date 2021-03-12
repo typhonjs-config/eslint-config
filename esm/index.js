@@ -1,7 +1,12 @@
 module.exports = {
    "extends": "../default/default.js",
 
+   "env": {
+      "es6": true
+   },
+
    "parserOptions": {
+      "ecmaVersion": 2015,
       "sourceType": "module",
       "ecmaFeatures": {
       }
