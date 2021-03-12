@@ -1,5 +1,5 @@
 module.exports = {
-   "extends": "../default/default",
+   "extends": "../default/default.js",
 
    "rules": {
       /* ES6 */

@@ -1,3 +1,3 @@
 module.exports = {
-   "extends": ["index", "../../env/browser"]
+   "extends": ["index.js", "../../env/browser.js"]
 }

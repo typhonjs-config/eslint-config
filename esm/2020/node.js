@@ -1,3 +1,3 @@
 module.exports = {
-   "extends": ["index", "../../env/node"]
+   "extends": ["index.js", "../../env/node.js"]
 }
