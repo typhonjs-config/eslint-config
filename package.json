@@ -1,6 +1,6 @@
 {
   "name": "@typhonjs-config/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Provides shared ESLint config files for TyphonJS projects",
   "homepage": "https://github.com/typhonjs-config/eslint-config",
   "license": "MIT",
@@ -14,7 +14,7 @@
   "maintainers": [
     {
       "name": "Michael Leahy",
-      "email": "fvtt@typhonjs.io",
+      "email": "support@typhonjs.io",
       "url": "https://github.com/typhonrt"
     }
   ],

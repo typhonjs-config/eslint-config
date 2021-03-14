@@ -1,5 +1,5 @@
 module.exports = {
-   "extends": "../default/default.js",
+   "extends": "../shared/default.js",
 
    "env": {
       "es6": true
@@ -13,7 +13,7 @@ module.exports = {
    },
 
    "rules": {
-      /* ES6 */
+      /* ESM */
       "arrow-body-style": "off",
       "arrow-parens": ["error", "always"],
       "arrow-spacing": "error",
@@ -31,7 +31,7 @@ module.exports = {
       "prefer-template": "error",
       "require-yield": "error",
 
-      /* Unused ES6 rules */
+      /* Unused ESM rules */
       "prefer-reflect": "off"
    }
 }
