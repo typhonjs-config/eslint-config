@@ -1,7 +1,7 @@
 {
   "name": "@typhonjs-config/eslint-config",
   "version": "0.2.0",
-  "description": "Provides shared ESLint config files for TyphonJS projects",
+  "description": "Provides shared ESLint configs files for TyphonJS projects.",
   "homepage": "https://github.com/typhonjs-config/eslint-config",
   "license": "MIT",
   "author": "typhonrt",
