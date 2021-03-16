@@ -1,19 +1,10 @@
 {
   "name": "@typhonjs-config/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Provides shared ESLint config files for TyphonJS projects",
   "homepage": "https://github.com/typhonjs-config/eslint-config",
   "license": "MIT",
-  "author": {
-    "name": "Michael Leahy"
-  },
-  "dependencies": {
-    "eslint-plugin-jsdoc": "^32.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/typhonjs-config/eslint-config.git"
-  },
+  "author": "typhonrt",
   "maintainers": [
     {
       "name": "Michael Leahy",
@@ -21,6 +12,13 @@
       "url": "https://github.com/typhonrt"
     }
   ],
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^32.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typhonjs-config/eslint-config.git"
+  },
   "keywords": [
     "typhonjs",
     "eslint"
