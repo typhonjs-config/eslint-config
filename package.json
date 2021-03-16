@@ -8,7 +8,8 @@
     "name": "Michael Leahy"
   },
   "dependencies": {
-    "eslint-plugin-jsdoc": "^32.0.0"
+    "eslint-plugin-jsdoc": "^32.0.0",
+    "type-fest": "^0.21.0"
   },
   "repository": {
     "type": "git",
