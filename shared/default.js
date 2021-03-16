@@ -1,5 +1,5 @@
 module.exports = {
-   "extends": "eslint:recommended",
+   "extends": ["eslint:recommended", "plugin:jsdoc/recommended"],
 
    "env": {
       "mocha": true
@@ -16,19 +16,6 @@ module.exports = {
       "no-array-constructor": "error",
       "no-console": "off",
       "no-new-object": "error",
-
-      /* Documentation */
-      "require-jsdoc": ["error",
-         {
-            "require": {
-               "FunctionDeclaration": true,
-               "MethodDefinition": true,
-               "ClassDeclaration": true,
-               "ArrowFunctionExpression": false
-            }
-         }],
-
-      "valid-jsdoc": ["error",{ "requireReturn": false, "requireReturnDescription": false }],
 
       /* Styling */
       "array-bracket-spacing": "error",

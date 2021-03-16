@@ -7,6 +7,9 @@
   "author": {
     "name": "Michael Leahy"
   },
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^32.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/typhonjs-config/eslint-config.git"
