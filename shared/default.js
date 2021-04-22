@@ -11,6 +11,9 @@ module.exports = {
    },
 
    "rules": {
+      /* JSDoc */
+      "jsdoc/no-undefined-types": "off",  // For the time being turn off; see: https://github.com/gajus/eslint-plugin-jsdoc/issues/99
+
       /* Architecture */
       "eqeqeq": "error",
       "no-array-constructor": "error",
