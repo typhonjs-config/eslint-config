@@ -62,8 +62,7 @@ module.exports = {
       "spaced-comment": ["error", "always"],
       "wrap-regex": "error",
 
-      // Currently disabled as ESLint "error".x has this issue: https://github.com/eslint/eslint/issues/5"error"34
       "quotes": ["off", "single", "avoid-escape"],
-      "quote-props": ["error", "consistent-as-needed", { "keywords": true }],
+      "quote-props": ["error", "as-needed", { "unnecessary": true }],
    }
 }
