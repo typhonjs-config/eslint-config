@@ -63,6 +63,6 @@ module.exports = {
       "wrap-regex": "error",
 
       "quotes": ["off", "single", "avoid-escape"],
-      "quote-props": ["error", "as-needed", { "unnecessary": true }],
+      "quote-props": ["error", "as-needed", { "unnecessary": true }]
    }
 }
