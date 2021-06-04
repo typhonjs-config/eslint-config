@@ -22,6 +22,7 @@ module.exports = {
       "jsdoc/tag-lines": ["warn", "always", {
          "noEndLines": true,
          "tags": {
+            "ignore": {"lines":"any"},
             "inheritDoc": {"lines":"any"},
             "override": {"lines":"any"},
             "returns": {"lines":"any"},

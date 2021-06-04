@@ -1,3 +1,6 @@
+## 0.2.5
+- added 'ignore' to  "jsdoc/tag-lines"
+
 ## 0.2.4
 - set `"settings": { "jsdoc": { "mode": "typescript" } }`
 - set "jsdoc/tag-lines" to:
