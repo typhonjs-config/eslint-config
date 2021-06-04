@@ -1,3 +1,18 @@
+## 0.2.4
+- set `"settings": { "jsdoc": { "mode": "typescript" } }`
+- set "jsdoc/tag-lines" to:
+```
+"jsdoc/tag-lines": ["warn", "always", {
+   "noEndLines": true,
+   "tags": {
+      "inheritDoc": {"lines":"any"},
+      "override": {"lines":"any"},
+      "returns": {"lines":"any"},
+      "see": {"lines":"any"}
+   }
+}]
+```
+
 ## 0.2.3
 - set `"jsdoc/tag-lines": ["warn", "always", { "noEndLines": true }]`
 - set `"settings": { "jsdoc": { "mode": "permissive" } }`

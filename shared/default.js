@@ -12,14 +12,22 @@ module.exports = {
 
    "settings": {
       "jsdoc": {
-         "mode": "permissive"
+         "mode": "typescript"
       }
    },
 
    "rules": {
       /* JSDoc */
       "jsdoc/no-undefined-types": "off",  // For the time being turn off; see: https://github.com/gajus/eslint-plugin-jsdoc/issues/99
-      "jsdoc/tag-lines": ["warn", "always", { "noEndLines": true }],
+      "jsdoc/tag-lines": ["warn", "always", {
+         "noEndLines": true,
+         "tags": {
+            "inheritDoc": {"lines":"any"},
+            "override": {"lines":"any"},
+            "returns": {"lines":"any"},
+            "see": {"lines":"any"}
+         }
+      }],
 
       /* Architecture */
       "eqeqeq": "error",
