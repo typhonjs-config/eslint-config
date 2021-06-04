@@ -1,3 +1,7 @@
+## 0.2.3
+- set `"jsdoc/tag-lines": ["warn", "always", { "noEndLines": true }]`
+- set `"settings": { "jsdoc": { "mode": "permissive" } }`
+
 ## 0.2.2
 - set quote-props to `["error", "as-needed", { "unnecessary": true }]`
 

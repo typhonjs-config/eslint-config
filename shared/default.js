@@ -10,9 +10,16 @@ module.exports = {
       "arguments": true
    },
 
+   "settings": {
+      "jsdoc": {
+         "mode": "permissive"
+      }
+   },
+
    "rules": {
       /* JSDoc */
       "jsdoc/no-undefined-types": "off",  // For the time being turn off; see: https://github.com/gajus/eslint-plugin-jsdoc/issues/99
+      "jsdoc/tag-lines": ["warn", "always", { "noEndLines": true }],
 
       /* Architecture */
       "eqeqeq": "error",
