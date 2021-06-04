@@ -25,8 +25,11 @@ module.exports = {
             "ignore": {"lines":"any"},
             "inheritDoc": {"lines":"any"},
             "override": {"lines":"any"},
+            "private": {"lines":"any"},
+            "protected": {"lines":"any"},
             "returns": {"lines":"any"},
-            "see": {"lines":"any"}
+            "see": {"lines":"any"},
+            "throws": {"lines":"any"}
          }
       }],
 
