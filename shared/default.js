@@ -29,7 +29,8 @@ module.exports = {
             "protected": {"lines":"any"},
             "returns": {"lines":"any"},
             "see": {"lines":"any"},
-            "throws": {"lines":"any"}
+            "throws": {"lines":"any"},
+            "type": {"lines":"any"}
          }
       }],
 

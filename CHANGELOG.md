@@ -1,3 +1,6 @@
+## 0.2.7
+- added 'type' to  "jsdoc/tag-lines"
+
 ## 0.2.6
 - added 'private', 'protected', 'throws' to  "jsdoc/tag-lines"
 
