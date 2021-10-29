@@ -1,1 +1,1 @@
-module.exports = require('../2021/browser');
+module.exports = require('../2022/browser');
