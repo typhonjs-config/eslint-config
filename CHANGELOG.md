@@ -1,3 +1,6 @@
+## 0.3.0
+- upgraded for ESLint 8.x support.
+
 ## 0.2.7
 - added 'type' to  "jsdoc/tag-lines"
 
