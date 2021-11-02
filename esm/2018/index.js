@@ -2,7 +2,7 @@ module.exports = {
    "extends": "../index.js",
 
    "env": {
-      "es2018": true
+      "es2017": true
    },
 
    "parserOptions": {

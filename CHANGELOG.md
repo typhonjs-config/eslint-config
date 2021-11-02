@@ -1,3 +1,6 @@
+## 0.3.1
+- Small fix for invalid env ESM attributes for 2018 / 2019.
+
 ## 0.3.0
 - upgraded for ESLint 8.x support.
 
