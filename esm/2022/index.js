@@ -2,7 +2,7 @@ module.exports = {
    "extends": "../index.js",
 
    "env": {
-      // "es2022": true  // Apparently as of ESLint 8.1 this is not available.
+      "es2021": true  // Apparently as of ESLint 8.1 'es2022' is not available.
    },
 
    "parserOptions": {

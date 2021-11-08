@@ -1,3 +1,6 @@
+## 0.3.2
+- Small fix to include es2021 environment in 2022 config.
+
 ## 0.3.1
 - Small fix for invalid env ESM attributes for 2018 / 2019.
 
