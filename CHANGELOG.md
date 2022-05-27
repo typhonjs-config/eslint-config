@@ -1,3 +1,6 @@
+## 0.3.4
+- Added `memberof` & `readonly` to exceptions in tag-lines rule.
+
 ## 0.3.3
 - Switched all operators for linebreak rule to `after`.
 
