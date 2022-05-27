@@ -1,3 +1,6 @@
+## 0.3.3
+- Switched all operators for linebreak rule to `after`.
+
 ## 0.3.2
 - Small fix to include es2021 environment in 2022 config.
 

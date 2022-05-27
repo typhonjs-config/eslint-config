@@ -55,20 +55,7 @@ module.exports = {
       "no-spaced-func": "error",
       "object-curly-spacing": ["error", "always"],
       "operator-assignment": ["error", "always"],
-      "operator-linebreak": ["error", "before", {
-         "overrides": {
-            "+": "after",
-            ":": "after",
-            "?": "after",
-            "||": "after",
-            "&&": "after",
-            "=": "after",
-            "==": "after",
-            "!=": "after",
-            "===": "after",
-            "!==": "after"
-         }
-      }],
+      "operator-linebreak": ["error", "after"],
       "semi": ["error", "always"],
       "sort-vars": ["error", { "ignoreCase": true }],
       "space-before-blocks": "error",
