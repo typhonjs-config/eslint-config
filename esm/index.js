@@ -23,6 +23,7 @@ module.exports = {
       "no-const-assign": "error",
       "no-dupe-class-members": "error",
       "no-this-before-super": "error",
+      "no-useless-constructor": "error",
       "no-var": "error",
       "object-shorthand": ["error", "properties"],
       "prefer-arrow-callback": "error",

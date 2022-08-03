@@ -33,7 +33,8 @@ module.exports = {
             "returns": {"lines":"any"},
             "see": {"lines":"any"},
             "throws": {"lines":"any"},
-            "type": {"lines":"any"}
+            "type": {"lines":"any"},
+            "template": {"lines":"any"}
          }
       }],
 

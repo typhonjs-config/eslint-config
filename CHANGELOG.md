@@ -1,3 +1,8 @@
+## 0.3.5
+- Added `template` to exceptions in tag-lines rule.
+- Added `no-useless-constructor` to default ESM rules.
+- Updated `eslint-plugin-jsdoc` dependency to `39.3.4`.
+
 ## 0.3.4
 - Added `memberof` & `readonly` to exceptions in tag-lines rule.
 
