@@ -1,3 +1,7 @@
+## 0.4.0
+- Updated `eslint-plugin-jsdoc` dependency to `43.0.7`.
+- Added `hidden` to exceptions in tag-lines rule.
+
 ## 0.3.6
 - Updated `eslint-plugin-jsdoc` dependency to `39.3.14`.
 
