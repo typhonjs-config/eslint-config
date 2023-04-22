@@ -1,3 +1,9 @@
+## 0.5.0 (major)
+- Removed jsdoc/no-undefined-types rule turning it off; must now provide explicit types.
+  - To explicitly turn off again add `"rules": { "jsdoc/no-undefined-types": "off" }` to eslint config.
+- Added `public` to exceptions in tag-lines rule.
+- Fixed old invalid configuration values in `tag-lines`.
+
 ## 0.4.0
 - Updated `eslint-plugin-jsdoc` dependency to `43.0.7`.
 - Added `hidden` to exceptions in tag-lines rule.
