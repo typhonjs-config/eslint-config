@@ -18,9 +18,9 @@ module.exports = {
 
    "rules": {
       /* JSDoc */
-      "jsdoc/no-undefined-types": "off",  // For the time being turn off; see: https://github.com/gajus/eslint-plugin-jsdoc/issues/99
       "jsdoc/tag-lines": ["warn", "always", {
-         "noEndLines": true,
+         "applyToEndTag": false,
+         "startLines": 1,
          "tags": {
             "hidden": {"lines":"any"},
             "ignore": {"lines":"any"},
@@ -30,6 +30,7 @@ module.exports = {
             "package": {"lines":"any"},
             "private": {"lines":"any"},
             "protected": {"lines":"any"},
+            "public": {"lines":"any"},
             "readonly": {"lines":"any"},
             "returns": {"lines":"any"},
             "see": {"lines":"any"},

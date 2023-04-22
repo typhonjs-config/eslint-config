@@ -1,6 +1,6 @@
 {
   "name": "@typhonjs-config/eslint-config",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Provides shared ESLint configs files for TyphonJS projects.",
   "author": "Michael Leahy <support@typhonjs.io> (https://github.com/typhonrt)",
   "contributors": [
