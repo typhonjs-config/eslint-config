@@ -18,6 +18,7 @@ module.exports = {
 
    "rules": {
       /* JSDoc */
+      "jsdoc/no-undefined-types": "off",
       "jsdoc/tag-lines": ["warn", "always", {
          "applyToEndTag": false,
          "startLines": 1,
@@ -25,6 +26,7 @@ module.exports = {
             "hidden": {"lines":"any"},
             "ignore": {"lines":"any"},
             "inheritDoc": {"lines":"any"},
+            "link": {"lines":"any"},
             "override": {"lines":"any"},
             "memberof": {"lines":"any"},
             "package": {"lines":"any"},
