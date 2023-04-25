@@ -1,4 +1,11 @@
-## 0.5.0 (major)
+## 0.6.0
+- By default `"jsdoc/no-undefined-types": "off"` is used. A new `no-undefined-types` config is now available
+  for each year release that enables the `no-undefined-types` rule along with including Typescript types not 
+  included in `eslint-plugin-jsdoc`.
+
+- Updated `eslint-plugin-jsdoc` dependency to `^43`.
+
+## 0.5.0
 - Removed jsdoc/no-undefined-types rule turning it off; must now provide explicit types.
   - To explicitly turn off again add `"rules": { "jsdoc/no-undefined-types": "off" }` to eslint config.
 - Added `public` to exceptions in tag-lines rule.
