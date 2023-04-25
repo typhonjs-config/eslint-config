@@ -1,3 +1,6 @@
+## 0.6.1
+- Fix for not including in package new `/rules` directory.
+
 ## 0.6.0
 - By default `"jsdoc/no-undefined-types": "off"` is used. A new `no-undefined-types` config is now available
   for each year release that enables the `no-undefined-types` rule along with including Typescript types not 
