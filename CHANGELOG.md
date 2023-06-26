@@ -1,3 +1,6 @@
+## 0.6.2
+- Bump eslint-plugin-jsdoc to `^46`.
+
 ## 0.6.1
 - Fix for not including in package new `/rules` directory.
 
