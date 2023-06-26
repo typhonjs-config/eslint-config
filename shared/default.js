@@ -18,6 +18,7 @@ module.exports = {
 
    "rules": {
       /* JSDoc */
+      "jsdoc/no-defaults": "off",
       "jsdoc/no-undefined-types": "off",
       "jsdoc/tag-lines": ["warn", "always", {
          "applyToEndTag": false,

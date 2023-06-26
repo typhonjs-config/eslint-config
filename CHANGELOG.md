@@ -1,3 +1,6 @@
+## 0.6.3
+- Turn off `jsdoc/no-defaults` which was enabled in `^46`.
+
 ## 0.6.2
 - Bump eslint-plugin-jsdoc to `^46`.
 
